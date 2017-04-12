@@ -8,7 +8,7 @@
 // kirjutame et võtame confi kasutusele
 require_once 'conf.php';
 //pealehe sisu sisselugemine
-echo '<h1>veebriprogrameerimise esimene leht</h1>';
+echo '<h1>Veebriprogrameerimise esileht</h1>';
 //valmistame peamalli objekti
 $main_tmpl = new template('main');
 //valmistame paarid_mallielement =>väärtus
