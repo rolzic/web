@@ -15,7 +15,12 @@ define('STYLE_DIR', 'css/'); // styles path
 define('ACTS_DIR', 'acts/'); // acts path
 define('LIB_DIR', 'lib/'); // lib path
 
-require_once 'db_conf.php';
+
+
+define('DEFAULT_ACT', 'default'); //vaikimisi tegevuste faili nime muutmine
+require_once 'db_conf.php'; //andmebaasi konfi sisse lugemine
+
+define('DEFAULT_LANG', 'et'); //vaikekuva keel
 //Failide kasutuselevõtt
 require_once LIB_DIR.'utils.php';
 require_once CLASSES_DIR.'template.php';
