@@ -18,7 +18,7 @@ if($res === false){
     'is_first_page='.fixDb(1);
     $res = $db->getArray($sql);
   }
-if($res !== false){    
+if($res !== false){
 $page = $res[0];
 $http->set('page_id', $page('content_id'));
 $main_tmpl->set('content', $page['content']);
